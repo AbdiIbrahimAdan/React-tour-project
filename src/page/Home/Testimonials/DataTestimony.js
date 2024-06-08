@@ -6,7 +6,7 @@ import sarahKImage from './../../../assets/Testimonial/sarah_k.jpg';
 const DataTestimony = [
   {
     quote: "An unforgettable safari experience! The guides were knowledgeable and friendly. Highly recommended!",
-    author: "Jane D.",
+    author: "John D.",
     image: johnImg
   },
   {

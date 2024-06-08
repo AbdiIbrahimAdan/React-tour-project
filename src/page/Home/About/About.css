@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     align-items: center;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: hsl(128, 75%, 34%);
 }
 
 .about-img {
