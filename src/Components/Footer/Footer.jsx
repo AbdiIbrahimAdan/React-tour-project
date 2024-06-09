@@ -25,7 +25,7 @@ const Footer = () => {
         <div className="social-links">
           <a href="#" className="social-link">{<FaFacebook />}</a>
           <br></br>
-        
+
           <a href="#" className="social-link">{<FaTwitter />}</a>
           <a href="#" className="social-link">{<FaInstagram />}</a>
         </div>

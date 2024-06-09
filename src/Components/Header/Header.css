@@ -6,9 +6,26 @@
   font-size: 35px;
   font-weight: 900;
 }
-.head .icon {
-  margin-left: 10px;
+
+.social-links-icon {
+  margin-top: 10px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
 }
+  
+.social-links {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 22px;
+ 
+ 
+}
+.social-links:hover{
+  color: #1eb2a6;
+}
+
 
 .header-top{
   padding: 20px;
@@ -45,7 +62,7 @@ header ul li a:hover {
 .toggle {
   display: none;
 }
-/*--------header------------*/
+
 @media screen and (max-width: 768px) {
   .start {
     clip-path: none;

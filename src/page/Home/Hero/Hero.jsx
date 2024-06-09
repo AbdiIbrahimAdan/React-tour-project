@@ -8,7 +8,7 @@ const Hero = () => {
       <section className='hero'>
         <div className='container'>
           <div className='hero-text'>
-            
+           <h1>Welcome To Zaphy Tour</h1>
            <h2>Explore the World with Us</h2>
             <p>Join Zaph Tours for unforgettable safaris and adventure tours in the heart of Kenya and beyond. Experience the thrill of wildlife, stunning landscapes, and rich cultural heritage.</p>
             <div className='button'>
