@@ -4,6 +4,7 @@ import destinations from './DestinationData';
 
 const Destination = () => {
   return (
+    <>
     <section className="destination-section">
       <h2 className="section-title">Featured Destinations</h2>
       <div className="destination-grid">
@@ -19,6 +20,8 @@ const Destination = () => {
         ))}
       </div>
     </section>
+    
+    </>
   );
 }
 

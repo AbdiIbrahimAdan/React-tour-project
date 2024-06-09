@@ -1,10 +1,12 @@
 import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+
 import './Contact.css';
 
 const Contact = () => {
   return (
+    <>
     <section className="contact-section">
       <h2 className="section-title">Contact Us</h2>
       <div className="contact-grid">
@@ -49,6 +51,8 @@ const Contact = () => {
          style={{border:0, display: "block", width: "100%"}} allowfullscreen="" loading="lazy"></iframe>
       </div>
     </section>
+   
+    </>
   );
 };
 

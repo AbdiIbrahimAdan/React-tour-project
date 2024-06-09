@@ -1,8 +1,10 @@
 import './Trip.css';
 import tripTypes from './TripTypesData';
 
+
 const Trip = () => {
   return (
+    <>
     <section className="trip-types-section">
       <h2 className="section-title">Trip Types</h2>
       {tripTypes.map((trip, index) => (
@@ -22,6 +24,8 @@ const Trip = () => {
         </div>
       ))}
     </section>
+   
+    </>
   );
 };
 

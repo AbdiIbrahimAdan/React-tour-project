@@ -5,6 +5,7 @@ import Home from './page/Home/Home'
 import Destination from './page/Destination/Destination';
 import Trip from './page/Trip/Trip';
 import Contact from './page/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
      <Route  path ='/contact' element={<Contact/>}/>
 
     </Routes>
+    <Footer/>
     </BrowserRouter>
 
     </>
