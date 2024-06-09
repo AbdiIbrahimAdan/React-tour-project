@@ -7,16 +7,16 @@ const Hero = () => {
     <>
       <section className='hero'>
         <div className='container'>
-          <div className='row'>
-           <h1>WELCOME TO Zaphy Tour</h1> 
+          <div className='hero-text'>
+            
            <h2>Explore the World with Us</h2>
             <p>Join Zaph Tours for unforgettable safaris and adventure tours in the heart of Kenya and beyond. Experience the thrill of wildlife, stunning landscapes, and rich cultural heritage.</p>
             <div className='button'>
               <button className='primary-btn'>
-                Book NOW <i className='fa fa-long-arrow-alt-right'></i>
+                Book NOW
               </button>
               <button>
-                Learn More<i className='fa fa-long-arrow-alt-right'></i>
+                Learn More
               </button>
             </div>
           </div>

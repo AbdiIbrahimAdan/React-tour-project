@@ -1,7 +1,9 @@
 import {useState} from 'react'
-import { Link } from 'react-router-dom'
-import './Header.css'
-import HeaderTop from './HeaderTop'
+import { Link } from 'react-router-dom';
+import { FaBars } from "react-icons/fa6";
+import { FaTimes } from "react-icons/fa";
+import './Header.css';
+import HeaderTop from './HeaderTop';
 const Header = () => {
   const[click, setClick] = useState(false)
   return (
@@ -19,7 +21,7 @@ const Header = () => {
             <div className='button'>BOOK NOW</div>
             </div>
                <button className='toggle' onClick={() => setClick(!click)}>
-               {click ? <i className='fa fa-times'> </i> : <i className='fa fa-bars'></i>}
+               {click ? <FaTimes /> : <FaBars />}
              </button>
         </nav>
 </header>

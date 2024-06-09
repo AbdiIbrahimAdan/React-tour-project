@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     align-items: center;
     padding: 20px;
-    background-color: hsl(128, 75%, 34%);
+    background-color: #fff;
 }
 
 .about-img {
@@ -31,6 +31,7 @@
 
 .about-text {
     font-size: 1.2em;
+    color: #aca8a8;
 }
 
 @media (max-width: 768px) {

@@ -1,7 +1,7 @@
 
 .best-place {
   padding: 20px;
-  background-color: #59c1db;
+  background-color: #fff;
 }
 
 .section-title {
@@ -18,9 +18,9 @@
 }
 
 .place-card {
-  background-color: #46c9ce;
+  background-color: #aca8a8;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
   overflow: hidden;
   transition: transform 0.3s;
 }

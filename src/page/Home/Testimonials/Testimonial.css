@@ -1,6 +1,6 @@
 .testimonials {
     padding: 20px;
-    background-color: #61dbeb;
+    background-color: #fff;
   }
   
   .section-title {
@@ -17,7 +17,7 @@
   }
   
   .testimonial-card {
-    background-color: #1d9094;
+    background-color: #bec3c4;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -40,7 +40,7 @@
   
   .testimonial-author {
     font-size: 1em;
-    color: #111014;
+    color: #1eb2a6;
   }
   
   
